@@ -1,0 +1,9 @@
+# #HowYouTagTweets
+Done in collaboration with Willima Howard-Synder and Lan Luan. This is a reproduction of the paper [#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention](https://github.com/DarkArcZ/nlp/blob/caad02735902d0b92138948418f5bfbdd050eb38/Projects/%23HowYouTagTweets/paper/2021.emnlp-main.616.pdf). We seek to provide a working implementation, insights into the hyperparameters as well as conduct additional experiments.
+
+[Project Proposal](https://github.com/DarkArcZ/nlp/blob/caad02735902d0b92138948418f5bfbdd050eb38/Projects/%23HowYouTagTweets/proposal/CSE_517__Project_Doraemon_Jerome_William_Lan.pdf)
+
+# #HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention
+Millions of hashtags are created on social media every day to cross-refer messages concerning similar topics. To help people ﬁnd the topics they want to discuss, this paper characterizes a user’s hashtagging preferences via predicting how likely they will post with a hash-tag. It is hypothesized that one’s interests in a hashtag are related to what they said before (user history) and the existing posts present the hashtag (hashtag contexts). These factors are married in the deep semantic space built with a pre-trained BERT and a neural topic model via joint training. In this way, user interests learned from the past can be customized to match future hashtags, which is beyond the capability of existing methods assuming unchanged hashtag semantics. Furthermore, we propose a novel personalized topic attention to capture salient contents to personalize hashtag contexts. Experiments on a large-scale Twitter dataset show that our model signiﬁcantly out-performs the state-of-the-art recommendation approach without exploiting latent topics.
+
+In Progress
